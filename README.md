@@ -1,12 +1,12 @@
 # 🔬 Nanotechnology Image Classifier: Deep Learning para Micrografias MEV
 
-###📝 Visão Geral
+### 📝 Visão Geral
 
 Este projeto aplica Redes Neurais Convolucionais (CNNs) para a classificação automatizada de imagens de Microscopia Eletrônica de Varredura (MEV). O objetivo é distinguir entre três estágios críticos da síntese de nanomateriais de carbono: Grafite, Óxido de Grafeno (GO) e Óxido de Grafeno Reduzido (rGO).
 
 O diferencial deste trabalho é a viabilização do treinamento de modelos complexos em cenários de escassez de dados, típicos em ambientes laboratoriais de pesquisa acadêmica.
 
-###🧠 Metodologia e Arquitetura
+### 🧠 Metodologia e Arquitetura
 
 Para superar o desafio de um dataset reduzido, foram implementadas duas estratégias fundamentais:
 
@@ -14,7 +14,7 @@ Transfer Learning: Utilização da arquitetura MobileNetV2 (pré-treinada no Ima
 
 Data Augmentation: Implementação de transformações em tempo real (rotação, zoom, shear e flips) para aumentar artificialmente a diversidade das amostras e reduzir o overfitting.
 
-###📊 Performance e Análise de Treinamento
+### 📊 Performance e Análise de Treinamento
 
 O modelo foi treinado por 10 épocas, apresentando os seguintes resultados de convergência:
 
@@ -26,7 +26,7 @@ Convergência: Observa-se uma queda consistente na função de perda (loss) de t
 
 Desafios: As oscilações nas métricas de validação refletem a sensibilidade do modelo ao tamanho do lote (batch) e à alta similaridade visual entre GO e rGO, sugerindo a necessidade de expansão do dataset para maior precisão em ambientes de produção.
 
-###🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 TensorFlow & Keras: Frameworks principais de Deep Learning.
 
@@ -36,7 +36,7 @@ Matplotlib & Seaborn: Visualização científica e análise de métricas.
 
 ImageDataGenerator: Pipeline de processamento de imagens e aumento de dados.
 
-###🚀 Como Utilizar
+### 🚀 Como Utilizar
 
 Organize suas imagens MEV em pastas nomeadas por classe dentro de dataset/train e dataset/validation.
 
