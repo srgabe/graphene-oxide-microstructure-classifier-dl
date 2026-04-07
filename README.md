@@ -18,7 +18,8 @@ Data Augmentation: Implementação de transformações em tempo real (rotação,
 
 O modelo foi treinado por 10 épocas, apresentando os seguintes resultados de convergência:
 
-<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/5b60290a-807b-4837-a26b-aec11330f66c" />
+<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/6da9c194-564d-4b98-b539-a69b158bca44" />
+
 
 
 Análise Técnica:
